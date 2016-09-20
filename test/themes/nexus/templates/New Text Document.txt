@@ -1,0 +1,11 @@
+ <?php if($page['header']) : ?>
+    <div id="header-block">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <?php print render($page['header']); ?>
+          </div>
+        </div>
+      </div>
+    </div>
+  <?php endif; ?>
